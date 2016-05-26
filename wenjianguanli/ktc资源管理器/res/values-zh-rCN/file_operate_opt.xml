@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <array name="operate_opt">
+        <item> 重命名 </item>
+        <item> 删   除 </item>
+        <item> 复  制  </item>
+        <item> 剪 切   </item>
+    </array> 
+</resources>

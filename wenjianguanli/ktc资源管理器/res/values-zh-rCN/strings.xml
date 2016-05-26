@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">资源管理器</string>
+    <string name="menu_settings">Settings</string>
+    <string name="up_one_level">..(返回上一级目录)</string>
+    <string name="refurbish">.(刷新)</string>
+    <string name="lastUpdateTime">上次修改的时间</string>
+    <string name="title">文件管理器</string>
+    <string name="to_sdcard">进入设备根目录</string>
+    <string name="limits_of_authority">对不起，您无权限访问该内容！</string>
+    <string name="cannot_open_file">没找到适合的程序打开此文件</string>
+    <string name="error_open_file">打开文件出错</string>
+    <string name="avai_mem">可   用：</string>
+    <string name="alea_mem">已   用：</string>
+    <string name="total_memory">进程数量：</string>
+    <string name="cleanall"> 一键清理 </string>
+    <string name="memoryManager">文件管理</string>
+    <string name="showcleankey">点击实现一键清理</string>
+    <string name="showcleaneffect">显示清理效果</string>
+    <string name="jump_memeory">跳转到内存管理</string>
+    <string name="title_left_memory">剩余容量 ：</string>
+    <string name="title_total_memory">总容量 ：</string>
+    <string name="positive">确 定</string>
+    <string name="negative">取 消</string>
+    <!-- 对应文件夹的操作 -->
+    <string name="foldertitle">请选择操作选项：</string>
+    <string name="newfolder">新建文件夹</string>
+    <string name="delfolder">删除文件夹</string>
+    <string name="copyfolder">复制文件夹</string>
+    <string name="cutfolder">剪切文件夹</string>
+    <string name="pastehere">粘贴至此处</string>
+    <string name="backhome">返回主界面</string>
+    <string name="notDirectory">你选择的不是文件夹!</string>
+    <!-- 后来添加 -->
+    <string name="filetitle"> 选择操作项:</string>
+    <string name="document_type"> 文件夹 </string>
+    <string name="newname">请输入文件名:</string>
+    <string name="fileNameRepetition">已存在该文件，是否覆盖此文件?</string>
+    <string name="renameFail">重命名失败!</string>
+    <string name="fileRemove">确定删除该文件吗?</string>
+    <string name="success"> 成功!</string>
+    <string name="fail"> 失败!</string>
+    <string name="tip">提示</string>
+    <string name="cannotEmptyName">文件名不能为空!</string>
+    <string name="Createfolderfailed">创建文件夹失败，请确保该文件夹有写入权限!</string>
+    <string name="fileExist">该文件已存在</string>
+    <string name="cannotDeleteRoot">不能删除该根目录文件!</string>
+    <string name="noCopyShear">剪贴板为空</string>
+    <string name="TotheMainInterface">再按一次返回主界面！</string>
+    <string name="FolderAction">文件夹操作:</string>
+    <string name="deleteCurrentDir">确定要删除该文件夹吗?</string>
+    <string name="NoCleanUp">没有可清理进程!</string>
+    <string name="onceAgainExit">再按一次退出该程序!</string>
+    <string name="cleaned">清理了 </string>
+    <string name="progress"> 个进程</string>
+    <string name="folderNotExist">指定目录不存在</string>
+      <!-- 2016年5月4日11:20:09 -->
+    <string name="createFileSuccess">创建成功</string>
+    <string name="createFilefail">创建失败</string>
+    <string name="noFileToDelete">没有可删除文件(夹)</string>
+    <!-- 2016年5月5日10:58:50 -->
+	<string name="copyfinished"> 复制完成 </string>
+	<string name="cutsuccess">文件剪切成功</string>
+	<string name="cutfail">文件剪切失败</string>
+	<!-- 2016年5月5日20:29:14 -->
+	<string name="copydialogmessage">文件正在复制，请耐心等待！</string>
+	<string name="gotobacak">复制任务已转入后台！</string>
+	<string name="release"> 释放 </string>
+	<!-- 2016年5月6日09:47:49 -->
+	<string name="cuttoclipboard">已剪切到剪贴板</string>
+	<string name="copytoclipboard">已复制到剪贴板</string>
+	<string name="cannotremove">无法删除该文件!</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ktc explorer</string>
+    <string name="up_one_level">..(up level)</string>
+    <string name="lastUpdateTime">lastUpdateTime</string>
+    <string name="title">file manager</string>
+    <string name="to_sdcard">The root of usb device</string>
+    <string name="limits_of_authority">Sorry , No permission access to this file ！</string>
+    <string name="error_open_file">Open file Error</string>
+    <string name="avai_mem"> available：</string>
+    <string name="alea_mem">   used  ：</string>
+    <string name="cleanall"> Clean Up </string>
+    <string name="memoryManager"> File Manager </string>
+    <string name="showcleankey">Click to clean up</string>
+    <string name="showcleaneffect">showcleaneffect</string>
+    <string name="jump_memeory">go to file manager</string>
+    <string name="positive">OK</string>
+    <string name="negative">Cancel</string>
+    <!-- 对应文件夹的操作 -->
+    <string name="foldertitle"> operation option:</string>
+    <string name="newfolder"> create folder </string>
+    <string name="delfolder"> delete folder</string>
+    <string name="pastehere"> paste here  </string>
+    <string name="backhome"> main interface</string>
+    <!-- 后来添加 -->
+	<string name="filetitle"> operation option:</string>
+	<string name="document_type"> folder</string>
+	<string name="newname">Please enter the file name:</string>
+	<string name="fileNameRepetition">File name repetition, whether to overwrite the original name?</string>
+	<string name="renameFail">rename failed !</string>
+	<string name="fileRemove">Sure you want to delete the file?</string>
+	<string name="success"> successed!</string>
+	<string name="fail"> failed!</string>
+	<string name="tip">Tip</string>
+	<string name="cannotEmptyName">Create Failed , file name cannot be empty!</string>
+	<string name="Createfolderfailed">Create failed,please ensure the folder is writable!</string>
+	<string name="fileExist">The file already exists</string>
+	<string name="cannotDeleteRoot">Cannot delete the root directory!</string>
+	<string name="noCopyShear">No copying or shear action</string>
+	<string name="TotheMainInterface">Once again Return to the main interface</string>
+	<string name="FolderAction">Folder Action:</string>
+	<string name="deleteCurrentDir">Sure to delete the current directory?</string>
+	<string name="NoCleanUp">No process to clean up!</string>
+	<string name="onceAgainExit">Once again will exit the application!</string>
+	<string name="cleaned">Cleaned </string>
+	<string name="progress"> progresses</string>
+	<string name="folderNotExist">The file(dir) not exist:</string>
+	 <!-- 增加对文件夹的复制剪切功能 -->
+    <string name="copyfolder"> copy folder </string>
+    <string name="cutfolder">  cut folder </string>
+    <string name="notDirectory">What you choose is not a directory!</string>
+    <!-- 2016年5月4日11:20:09 -->
+    <string name="createFileSuccess">Successfully created!</string>
+    <string name="createFilefail">File creation failed!</string>
+    <string name="noFileToDelete">No file(folder) to delete!</string>
+    <!-- 2016年5月5日10:58:50 -->
+	<string name="copyfinished"> Copy finished </string>
+	<string name="cutsuccess">Successfully cuted</string>
+	<string name="cutfail">Cut failed</string>
+	<!-- 2016年5月5日20:29:14 -->
+	<string name="copydialogmessage">There is a copying task,Please be patient!</string>
+	<string name="gotobacak">Task running in background！</string>
+	<string name="release"> and released </string>
+	<!-- 2016年5月6日09:47:49 -->
+	<string name="cuttoclipboard">Cuted to clipboard!</string>
+	<string name="copytoclipboard">Copied to clipboard!</string>
+	<string name="cannotremove">This file cannot be removed!</string>
+</resources>

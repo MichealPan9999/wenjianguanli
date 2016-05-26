@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <array name="operate_opt">
+        <item> rename </item>
+        <item> remove </item>
+        <item> copy  </item>
+        <item> cut   </item>
+    </array> 
+</resources>

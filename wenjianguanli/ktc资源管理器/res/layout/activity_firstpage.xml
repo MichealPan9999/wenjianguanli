@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_main_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/ll_clean"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <FrameLayout
+            android:id="@+id/fl_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:focusable="false" >
+
+            <ImageView
+                android:id="@+id/iv_bg_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg2"
+                android:contentDescription="@string/showcleankey"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iv_clean_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/clean_go"
+                android:contentDescription="@string/showcleaneffect"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cleanall"
+                android:textColor="@color/forestgreen"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_clean"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:gravity="bottom"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_memory"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <FrameLayout
+            android:id="@+id/fl_memory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dip"
+            android:focusable="false" >
+
+            <ImageView
+                android:id="@+id/iv_bg_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg2"
+                android:clickable="true"
+                android:contentDescription="@string/jump_memeory"
+                android:focusable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/memoryManager"
+                android:textColor="@color/forestgreen"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_memory"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:gravity="bottom"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
